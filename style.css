@@ -71,7 +71,7 @@ body {
 }
 
 .main {
-    display: flex;
+    padding: .5em 1em;
     flex-grow: 1;
 }
 
@@ -79,6 +79,10 @@ body {
     text-align: center;
     background-color: black;
     color: white;
+}
+
+.product-image {
+    max-height: 250px;
 }
 
 
