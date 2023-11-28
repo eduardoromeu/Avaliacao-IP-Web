@@ -98,13 +98,13 @@ a {
 }
 
 .products-table {
-    border-spacing: .5em;
+    border-spacing: .75em;
 }
 
 .product-cell {
     transition: .5s all;
     min-width: 150px;
-    max-width: 350px;
+    max-width: 300px;
     padding: .75em;
     background-color: whitesmoke;
     border-radius: 10px;
@@ -138,13 +138,13 @@ a {
 }
 
 .product-cell h3 {
-    color: #0bc105;
+    color: #05a400;
+    transition: .5s all;
 }
 
-/* Debug */
-/* td, th {
-    border: 1px solid black;
-} */
+.product-cell:hover h3 {
+    color: black;
+}   
 
 @media only screen and (max-width: 950px) {
     .navbar {
