@@ -94,11 +94,11 @@ a {
 
 .product-table-container{
     overflow-x: auto;
+    max-width: 100%;
 }
 
-.product-table-title {
-    
-    
+.products-table {
+    border-spacing: .5em;
 }
 
 .product-cell {
@@ -106,6 +106,8 @@ a {
     min-width: 150px;
     max-width: 350px;
     padding: .75em;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 .product-cell:hover {
@@ -140,9 +142,9 @@ a {
 }
 
 /* Debug */
-td, th {
+/* td, th {
     border: 1px solid black;
-}
+} */
 
 @media only screen and (max-width: 950px) {
     .navbar {
